@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#intro">Ariel Lisboa</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro"></a></li>
+          <li><a href="#grid-one">Gestão de Tráfego</a></li>
+          <li><a href="#grid-two">Sites</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Eleve sua presença online e atraia novos clientes.</h2>
+        <!-- <p><strong>Ariel Lisboa</strong></p>
+        <p>Gestor de Tráfego e Desenvolvedor Web</p> -->
+
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/rocket.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>news coverage and some
+        surprises</h2>
+      <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some
+        surprises at the machine’s performance. This post details some background information on the experience of
+        porting Firefox to run natively on these CPUs.</p>
+      <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to
+        know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+      <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and
+        discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various
+        other improvements that are in the pipeline.</p>
+    </div>
+  </section>
+
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Gestão de Tráfego</h2>
+      <p class="grid-description">Iremos atrair tráfego qualificado, aumentando a visibilidade da sua marca,
+        conquistando leads valiosos e impulsionando suas vendas de forma eficiente.</p>
+
+      <div class="grid">
+        <div class="intro-img">
+          <img src="assets/img/marketing.svg" alt="Logo de HTML, CSS e JS.">
+        </div>
+        <article>
+          <h3>Resultados Rápidos</h3>
+          <p>O tráfego pago oferece resultados praticamente imediatos. Ao investir em campanhas eficientes, sua
+            visibilidade online aumenta rapidamente, gerando leads e potenciais clientes em um curto espaço de tempo.
+          </p>
+        </article>
+        <article>
+          <h3>Segmentação Precisa</h3>
+          <p>Com o tráfego pago, é possível direcionar suas campanhas para públicos específicos. Utilizando plataformas
+            como Google Ads e Facebook Ads, você atinge diretamente seu público-alvo, aumentando as chances de
+            conversões e maximizando o retorno sobre o investimento.</p>
+        </article>
+        <article class="whatsapp-article">
+          <a href="https://wa.me/5579988381834?text=Ol%C3%A1%2C+gostaria+de+um+or%C3%A7amento+para+..." target="_blank"
+            class="whatsapp-button">
+            Orçamento Grátis
+            <img src="assets/img/whats.svg" alt="Logo Whats" class="whatsapp-icon">
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Gallery</h2>
+      <p class="grid-description">Uma breve descrição.</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src=""  />
+        </div>
+        <div class="gallery-img">
+          <img src="" />
+        </div>
+        <div class="gallery-img">
+          <img src=""  />
+        </div>
+        <div class="gallery-img">
+          <img src=""  />
+        </div>
+        <div class="gallery-img">
+          <img src="" />
+        </div>
+        <div class="gallery-img">
+          <img src="" />
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Criação de Sites</h2>
+      <p class="grid-description">Desenvolvemos websites intuitivos e responsivos para e-commerce,
+        landing pages e etc. Priorizando a experiência do usuário, funcionalidade e adaptabilidade em
+        todos os dispositivos, construindo a base digital que seu negócio merece.</p>
+
+      <div class="grid">
+        <div class="intro-img">
+          <img src="assets/img/website.svg" alt="Logo de HTML, CSS e JS.">
+        </div>
+        <article>
+          <h3>Landig Page</h3>
+          <p>A Landing Page é uma ferramenta eficaz para direcionar visitantes a uma oferta específica.
+            Com design focado e conteúdo direto, ela maximiza a conversão de leads, proporcionando
+            uma experiência que captura a atenção do usuário e o direciona de maneira eficiente.</p>
+        </article>
+        <article>
+          <h3>E-commerce</h3>
+          <p>O E-commerce oferece uma plataforma completa para impulsionar suas vendas online.
+            Compras convenientes, ampla variedade de produtos e métodos de pagamento seguros
+            proporcionam uma experiência de compra sem complicações. Além disso, a presença 24/7
+            possibilita que os clientes realizem compras a qualquer momento, impulsionando as vendas
+            e expandindo o alcance da sua marca.</p>
+        </article>
+        <article class="whatsapp-article">
+          <a href="https://wa.me/5579988381834?text=Ol%C3%A1%2C+gostaria+de+um+or%C3%A7amento+para+..." target="_blank"
+            class="whatsapp-button">
+            Orçamento Grátis
+            <img src="assets/img/whats.svg" alt="Logo Whats" class="whatsapp-icon">
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="intro gray-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Dúvidas?</h2>
+        <p>Me envie uma mensagem no WhatsApp para que possamos conversar! </p>
+        <p><strong> Vamos dar vida às suas ideias.</strong></p>
+        <article class="whatsapp-article">
+          <a href="https://wa.me/5579988381834?text=Ol%C3%A1%2C+gostaria+de+um+or%C3%A7amento+para+..." target="_blank"
+            class="whatsapp-button">
+            Clique aqui!
+            <img src="assets/img/whats.svg" alt="Logo Whats" class="whatsapp-icon">
+          </a>
+        </article>
+      </div>
+      
+      <!-- <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Entre em contato</legend>
+
+          <div class="form-group">
+            <label for="first-name">Nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="seuemail@email.com">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Menssagem</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar</button>
+          </div>
+        </fieldset>
+      </div> -->
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/ariellopes-developer/">Feito com <span
+          class="heart">❤</span> por Ariel Lisboa</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
