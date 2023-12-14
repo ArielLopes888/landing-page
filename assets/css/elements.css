@@ -16,7 +16,12 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -79,20 +84,23 @@ table caption {
   margin-bottom: 1rem;
 }
 
-table td, table th {
+table td,
+table th {
   white-space: nowrap;
   padding: 1rem;
   text-align: left;
   border: 0.1rem solid var(--light-gray-color)
 }
 
-tfoot td, table th {
+tfoot td,
+table th {
   background: var(--light-gray-color);
 }
 
 .whatsapp-article {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .whatsapp-button {
@@ -100,16 +108,57 @@ tfoot td, table th {
   align-items: center;
   justify-content: center;
   padding: 10px 20px;
-  background-color: #25d366; 
+  background-color: #25d366;
   color: #fff;
   text-decoration: none;
   border-radius: 15px;
   transition: background-color 0.3s ease;
-  position: relative; 
+  position: relative;
 }
 
 .whatsapp-icon {
-  width: 50px; 
+  width: 50px;
   height: auto;
-  margin-left: 20px; 
+  margin-left: 20px;
+}
+.lamp-icon {
+  width: 80px;
+  height: auto;
+  margin-left: 20px;
+}
+.p-contact {
+  font-size: 2em;
+  /* Tamanho da fonte */
+  font-weight: 700;
+  /* Peso da fonte */
+  text-align: center;
+  /* Alinhamento do texto */
+  margin-top: 30px;
+  /* Espaçamento superior */
+  display: inline;
+  /* Tornar o elemento em linha */
+  cursor: pointer; 
+  border: 2px solid #f7850341;
+  border-radius: 15px;
+  background: linear-gradient(to right, #ffdc19, #f78503);
+  /* Gradiente de cores neon nas letras */
+  -webkit-background-clip: text;
+  /* Clip de fundo para aplicar o gradiente apenas nas letras no Safari/Chrome */
+  color: transparent;
+  /* Tornar o texto transparente para mostrar o gradiente nas letras */
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  /* Efeito de transição suave */
+}
+
+.p-contact:hover {
+  border-radius: 15px;
+  background: linear-gradient(to right, #ffdc19, #f78503); /* Gradiente ao passar o mouse */
+  color: #ffffff; /* Cor do texto ao passar o mouse */
+  transform: scale(1.1);
+  /* Efeito de escala sutil ao passar o mouse */
+}
+
+.p-contact a{
+  text-decoration: none; /* Remover sublinhado padrão do link */
+  color: inherit; /* Herdar a cor do texto */
 }

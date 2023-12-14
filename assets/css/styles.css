@@ -19,6 +19,12 @@
   height: auto;
 }
 
+.contact-img img,
+.contact-img svg {
+  width: 300px; 
+  height: auto;
+  margin-left: 10px; 
+}
 .top3-content {
   max-width: 64rem;
   display: flex;
