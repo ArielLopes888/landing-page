@@ -128,37 +128,28 @@ table th {
 }
 .p-contact {
   font-size: 2em;
-  /* Tamanho da fonte */
   font-weight: 700;
-  /* Peso da fonte */
   text-align: center;
-  /* Alinhamento do texto */
   margin-top: 30px;
-  /* Espaçamento superior */
   display: inline;
-  /* Tornar o elemento em linha */
   cursor: pointer; 
   border: 2px solid #f7850341;
   border-radius: 15px;
   background: linear-gradient(to right, #ffdc19, #f78503);
-  /* Gradiente de cores neon nas letras */
   -webkit-background-clip: text;
-  /* Clip de fundo para aplicar o gradiente apenas nas letras no Safari/Chrome */
   color: transparent;
-  /* Tornar o texto transparente para mostrar o gradiente nas letras */
   transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
-  /* Efeito de transição suave */
 }
 
 .p-contact:hover {
   border-radius: 15px;
-  background: linear-gradient(to right, #ffdc19, #f78503); /* Gradiente ao passar o mouse */
-  color: #ffffff; /* Cor do texto ao passar o mouse */
+  background: linear-gradient(to right, #ffdc19, #f78503);
+  color: #ffffff; 
   transform: scale(1.1);
-  /* Efeito de escala sutil ao passar o mouse */
+ 
 }
 
 .p-contact a{
-  text-decoration: none; /* Remover sublinhado padrão do link */
-  color: inherit; /* Herdar a cor do texto */
+  text-decoration: none; 
+  color: inherit; 
 }
