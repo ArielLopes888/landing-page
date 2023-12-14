@@ -148,6 +148,28 @@ table th {
   text-decoration: none;
   color: inherit;
 }
+.p-email {
+  font-size: 0.8em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  display: inline;
+  cursor: pointer;
+  border-radius: 15px;
+  -webkit-background-clip: text;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.p-email:hover {
+  border-radius: 15px;
+  background: linear-gradient(to right, #ffdc19, #f78503);
+  color: #ffffff;
+}
+
+.p-email a{
+  text-decoration: none;
+  color: inherit;
+}
 
 @media (max-width: 800px) {
 
