@@ -1,4 +1,4 @@
-
+@import '../css/reset.css';
 .main-bg {
   background-image: url('../img/background.svg'); /* background by SVGBackgrounds.com */
   background-size: cover;
@@ -33,4 +33,14 @@
 body .full-width {
   width: 100%;
   flex: 1 1 100%;
+}
+
+@media (max-width: 800px) {
+  .main-bg {
+    background-size: contain; 
+  }
+  .main-content {
+    max-width: 100%; 
+    padding: 5rem var(--gap); 
+  }
 }
