@@ -154,16 +154,10 @@ table th {
   text-align: center;
   margin-top: 30px;
   display: inline;
-  cursor: pointer;
-  border-radius: 15px;
+  border-radius: 15px;background: linear-gradient(to right, #ffdc19, #f78503);
   -webkit-background-clip: text;
+  color: transparent;
   transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
-}
-
-.p-email:hover {
-  border-radius: 15px;
-  background: linear-gradient(to right, #ffdc19, #f78503);
-  color: #ffffff;
 }
 
 .p-email a{
