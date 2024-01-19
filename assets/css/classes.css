@@ -35,6 +35,13 @@ body .full-width {
   flex: 1 1 100%;
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #afafaf;
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 800px) {
   .main-bg {
     background-size: contain; 
