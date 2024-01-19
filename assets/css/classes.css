@@ -1,6 +1,6 @@
 @import '../css/reset.css';
 .main-bg {
-  background-image: url('../img/background.svg'); /* background by SVGBackgrounds.com */
+  background-image: url('../img/background.avif'); /* background by SVGBackgrounds.com */
   background-size: cover;
   background-position: center center;
   color: var(--white-color);
