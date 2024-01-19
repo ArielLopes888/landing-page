@@ -112,7 +112,6 @@ table th {
   margin-top: 30px;
   display: inline;
   cursor: pointer;
-  border: 2px solid #f7850341;
   border-radius: 15px;
   background: linear-gradient(to right, #ffdc19, #f78503);
   -webkit-background-clip: text;
